@@ -1,0 +1,42 @@
+.form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.textArea {
+  width: 75%;
+  max-width: 700px;
+  height: 15%;
+  max-height: 100px;
+  padding: 10px 20px;
+  font-size: 2rem;
+  resize: none;
+  border-radius: 20px;
+  border: 2px solid rgb(89, 0, 255);
+}
+
+.containerButtons {
+  display: flex;
+  gap: 15px;
+}
+
+.button {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color: rgb(89, 0, 255);
+  color: white;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  border: 2px solid rgb(89, 0, 255);
+  background-color: white;
+  color: rgb(89, 0, 255);
+}

@@ -1,0 +1,8 @@
+.listTodos {
+  width: 80%;
+  max-width: 500px;
+  margin: 25px auto 0;
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
